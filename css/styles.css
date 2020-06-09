@@ -10012,7 +10012,7 @@ p {
 .page-section h2.section-heading {
   font-size: 2.5rem;
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
 }
 .page-section h3.section-subheading {
   font-size: 1rem;
@@ -10136,11 +10136,11 @@ img::-moz-selection {
   }
 }
 header.masthead {
-  padding-top: 10.5rem;
-  padding-bottom: 6rem;
+  padding-top: 23.5rem;
+  padding-bottom: 19rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header-bg.jpg");
+  background-image: url("../assets/img/wallpaperData3.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -10161,10 +10161,12 @@ header.masthead .masthead-heading {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+
+
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 17rem;
-    padding-bottom: 12.5rem;
+    padding-top: 42rem;
+    padding-bottom: .5rem;
   }
   header.masthead .masthead-subheading {
     font-size: 2.25rem;
@@ -10291,11 +10293,13 @@ header.masthead .masthead-heading {
   clear: both;
 }
 .timeline > li .timeline-panel {
+  text-align: center !important;
+  box-shadow: 0px 10px 27px 3px rgba(204, 204, 204, 0.2) !important;
   position: relative;
   float: right;
   width: 100%;
-  padding: 0 20px 0 100px;
-  text-align: left;
+  padding: 1em !important;
+  /*text-align: left;*/
 }
 .timeline > li .timeline-panel:before {
   right: auto;
@@ -10310,15 +10314,18 @@ header.masthead .masthead-heading {
   border-left-width: 0;
 }
 .timeline > li .timeline-image {
+  width: 10px !important;
+  height: 10px !important;
+  margin-left: -6px ;
   position: absolute;
   z-index: 100;
   left: 0;
-  width: 80px;
-  height: 80px;
+  /*width: 80px;
+  height: 80px;*/
   margin-left: 0;
   text-align: center;
   color: white;
-  border: 7px solid #e9ecef;
+  /*border: 7px solid #e9ecef;*/
   border-radius: 100%;
   background-color: #fed136;
 }
@@ -10377,7 +10384,7 @@ header.masthead .masthead-heading {
     left: 50%;
     width: 100px;
     height: 100px;
-    margin-left: -50px;
+    margin-left: -6px;
   }
   .timeline > li .timeline-image h4 {
     font-size: 13px;
@@ -10400,7 +10407,7 @@ header.masthead .masthead-heading {
   .timeline > li .timeline-image {
     width: 150px;
     height: 150px;
-    margin-left: -75px;
+    margin-left: -6px;
   }
   .timeline > li .timeline-image h4 {
     font-size: 18px;
@@ -10421,7 +10428,7 @@ header.masthead .masthead-heading {
   .timeline > li .timeline-image {
     width: 170px;
     height: 170px;
-    margin-left: -85px;
+    margin-left: -6px;
   }
   .timeline > li .timeline-image h4 {
     margin-top: 40px;
@@ -10445,14 +10452,10 @@ header.masthead .masthead-heading {
 }
 
 section#contact {
-  background-color: #212529;
-  background-image: url("../assets/img/map-image.png");
   background-repeat: no-repeat;
   background-position: center;
 }
-section#contact .section-heading {
-  color: #fff;
-}
+
 section#contact form#contactForm .form-group {
   margin-bottom: 1.5rem;
 }
@@ -10502,4 +10505,104 @@ section#contact form#contactForm :-ms-input-placeholder {
   text-align: center;
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.star {
+  color: #6c757d;
+}
+
+.checked {
+  color: black !important
+}
+
+.skill {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: -1em;
+}
+
+.stars {
+  margin-left: 1em;
+}
+
+.skill-focused {
+  margin-left: 3px;
+}
+.skill_name {
+  width: 30%;
+  font-size: large;
+}
+
+.portfolio-caption-date {
+  font-size: medium;
+  text-align: end;
+}
+
+.portfolio-caption-keyword {
+  font-size: smaller;
+}
+
+.project-description {
+  text-align: justify;
+
+}
+
+@media only screen and (max-width: 768px) {
+  .contactLogo {
+    justify-content: center !important;
+  }
+
+  .timeline-panel {
+    width: 80% !important;
+  }
+
+  .timeline-image {
+    margin-left: 35px !important;
+  }
+
+  header.masthead {
+    padding-top: 8.5rem !important;
+    padding-bottom: 7rem !important;
+  }
+}
+
+header div a svg {
+  animation: sdb07 2s infinite;
+  opacity: 0;
+}
+header div a svg:nth-of-type(1) {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+header div a svg:nth-of-type(2) {
+  margin-top: -1.5em;
+  -webkit-animation-delay: .15s;
+  animation-delay: .15s;
+}
+header div a svg:nth-of-type(3) {
+  margin-top: -1.5em;
+  -webkit-animation-delay: .3s;
+  animation-delay: .3s;
+}
+@-webkit-keyframes sdb07 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes sdb07 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }

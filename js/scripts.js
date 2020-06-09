@@ -49,8 +49,22 @@
             $("#mainNav").removeClass("navbar-shrink");
         }
     };
+
+    $(".skill").mouseenter(function() {
+        $(this).children(".stars").children().addClass("skill-focused")
+    })
+
+    $(".skill").mouseleave(function() {
+        $(this).children(".stars").children().removeClass("skill-focused")
+    })
+
+
+
     // Collapse now if page is not at top
     navbarCollapse();
     // Collapse the navbar when page is scrolled
     $(window).scroll(navbarCollapse);
+
+
+
 })(jQuery); // End of use strict
