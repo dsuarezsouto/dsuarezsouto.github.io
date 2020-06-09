@@ -10562,7 +10562,8 @@ section#contact form#contactForm :-ms-input-placeholder {
   }
 
   header.masthead {
-    padding-top: 66% !important;
+    background-image: url(../assets/img/wallpaperDataMobile2.jpg);
+    padding-top: 172% !important;
     padding-bottom: 0.5rem !important;
   }
   .project-description {
