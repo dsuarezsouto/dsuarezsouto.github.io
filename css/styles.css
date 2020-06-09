@@ -10165,7 +10165,7 @@ header.masthead .masthead-heading {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 42rem;
+    padding-top: 45%;
     padding-bottom: .5rem;
   }
   header.masthead .masthead-subheading {
@@ -10529,7 +10529,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   margin-left: 3px;
 }
 .skill_name {
-  width: 30%;
+  width: 35%;
   font-size: large;
 }
 
@@ -10547,9 +10547,10 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .contactLogo {
     justify-content: center !important;
+    margin-bottom: 0px !important;
   }
 
   .timeline-panel {
@@ -10561,15 +10562,45 @@ section#contact form#contactForm :-ms-input-placeholder {
   }
 
   header.masthead {
-    padding-top: 14.5rem !important;
+    padding-top: 66% !important;
     padding-bottom: 0.5rem !important;
   }
   .project-description {
-    font-size: x-small;
+    font-size: small !important;
   }
 
   .skill_name {
+    font-size: small !important;
+  }
+  .portfolio-modal .modal-content h2{
+    font-size: x-large !important;
+  }
+
+  .experienceDescription {
     font-size: small;
+    text-align: justify;
+  }
+  .experienceMeta {
+    font-size: small;
+  }
+
+  .subheading {
+    font-size: medium;
+  }
+
+  header div a svg:nth-of-type(1) {
+    width: 1em;
+    height: 1em;
+  }
+  header div a svg:nth-of-type(2) {
+    margin-top: -1.5em;
+    width: 1em;
+    height: 1em;
+  }
+  header div a svg:nth-of-type(3) {
+    margin-top: -1.5em;               
+    width: 1em;
+    height: 1em;
   }
 }
 
@@ -10585,11 +10616,13 @@ header div a svg:nth-of-type(2) {
   margin-top: -1.5em;
   -webkit-animation-delay: .15s;
   animation-delay: .15s;
+
 }
 header div a svg:nth-of-type(3) {
   margin-top: -1.5em;
   -webkit-animation-delay: .3s;
   animation-delay: .3s;
+
 }
 @-webkit-keyframes sdb07 {
   0% {
