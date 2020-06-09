@@ -10561,8 +10561,15 @@ section#contact form#contactForm :-ms-input-placeholder {
   }
 
   header.masthead {
-    padding-top: 8.5rem !important;
-    padding-bottom: 7rem !important;
+    padding-top: 14.5rem !important;
+    padding-bottom: 0.5rem !important;
+  }
+  .project-description {
+    font-size: x-small;
+  }
+
+  .skill_name {
+    font-size: small;
   }
 }
 
